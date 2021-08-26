@@ -1,0 +1,327 @@
+
+html{ margin: 0px; padding: 0px; }
+
+body{
+font-family:arial ;
+background:#fff;
+/* text-align: center;  */
+}
+.container{
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 100%;
+	list-style: none;
+	border: px solid #ccc;
+	font-size: 15px;
+	text-align: center;
+	font-style:italic;
+	font-family: Zapf-Chancery;
+	text-decoration: none;
+	text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+.container homeimagem{
+    width: 100%;
+  }
+}
+	@media only screen and (max-width: 640px){
+.container homeimagem{
+		width: 100%;
+	}
+}
+
+.homeimagem ul{
+	color: #8B2323;
+display: flex;
+margin-left: 2%;
+margin-right: 2%;
+list-style: none;
+justify-content: space-around;
+border: px solid #ccc;
+padding: 10px;
+font-style:italic;
+font-family: Zapf-Chancery;
+text-decoration: none;
+text-align: center;
+}
+
+
+.main{
+max-width: calc(1300px - 40px - 10px);
+width: calc(96% - 100px);
+
+/*espacamento interno*/
+padding: 10px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+list-style: none;
+border: px solid #ccc;
+font-size: 15px;
+text-align: center;
+font-style:italic;
+font-family: Zapf-Chancery;
+text-decoration: none;
+text-align: center;
+}
+
+.main div{
+padding: 40px 10px;
+background-color: #efe8d5;
+color: #8B2323;
+margin: 10px 0;
+flex-basis: calc(35% - 30px - 20px);
+}
+
+.main h1{
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+.bloco{
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+}
+
+.btn{
+	padding: 8px 15px;
+	font-size: 1.1em;
+	font-weight: normal;
+	border-radius:  5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-decoration: 	none;
+}
+
+@media (max-width: 640px){
+.main div{
+	flex-basis: calc(100% - 40px);}
+}
+
+
+
+#p1{
+font-style:italic;
+font-family: Zapf-Chancery;
+text-decoration: none;
+text-align: center;
+color: #8B2323;
+font-size: 30px;
+background-color:#efe8d5;
+border-radius: 20px;
+padding: 5px 20px 5px 15px ;
+margin:  5px 15px 5px 15px ;
+clear: both;
+}
+
+#topo{
+background-color:#8d1e31;
+}
+
+#logo{
+float: left;
+border: px solid red;
+padding: 0px;
+margin: 10px 0 0 0px;
+clear: both;
+width: 100px;
+height: 100px;
+}
+
+#logo img{
+width: 100px;
+height: auto;
+}
+
+#menu{
+font-style:italic;
+font-family: Zapf-Chancery;
+border: px solid #ccc;
+text-align: left;
+border-radius:5px;
+background: #fff;
+float: right;
+margin: 20px;
+}
+
+
+#menu ul{
+list-style: none;
+height: 20px;
+}
+
+#menu ul li{
+float:left;
+padding:5px 40px 5px 0;
+}
+#menu ul a{
+text-decoration: none;
+color: #8B2323;
+font-size: 20px;
+background-color:#FFF;
+border-radius: 20px;
+padding: 5px 20px 5px 15px ;
+margin:  5px 15px 5px 15px ;
+clear: both;
+}
+
+#main{
+
+border: px solid red;
+margin: 10px
+width: auto;
+height: auto;
+border-radius:5px;
+clear: both;
+}
+
+
+#imagemPaginaPrincipal{
+
+border-bottom: px solid red;
+padding: 10px;
+font-size: 16px;
+float: left;
+
+}
+
+#imagemPaginaPrincipal .imgPequena{
+border-bottom: 1px solid #ccc;
+width: auto;
+height: 400px;
+float: left;
+padding: 10px;
+margin: 10px;
+}
+.imgProduto{
+border: px solid #ccc;
+width: 210px;
+height: 300px;
+float: left;
+
+}
+#imagemPaginaPrincipal .comprar{
+border: 1px solid #ccc;
+background: green;
+color: #FFF;
+margin: 2px 5px 5px 10px;
+padding: 1px;
+border-radius: 1px;
+float:left;
+clear: both;
+
+}
+
+#imagemPaginaPrincipal .descricao{
+	border: 1px solid #ccc;
+	background: green;
+	color: #FFF;
+	margin: 2px 5px 5px 10px;
+	padding: 1px;
+	border-radius: 1px;
+	float:left;
+	clear: both;
+
+}
+
+#destaqueMes{
+border-top: 1px solid #ccc;
+width: auto;
+height: auto;
+float: left;
+padding: 20px;
+margin: 10px;
+
+}
+#imagemPaginaPrincipal .destaque{
+border: px solid #ccc;
+width: auto;
+height: auto;
+float: left;
+padding: 10px;
+margin: 10px;
+}
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto{
+border: px solid #ccc;
+width: auto;
+height: auto;
+float: left;
+margin: 10px;
+}
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto img{
+border: px solid #ccc;
+width: auto;
+height: auto;
+float: left;
+margin: 10px;
+}
+
+
+#formulario{
+margin: 20px;
+
+border: px solid blue;
+padding: 30px;
+float: center;
+font-size: 15px;
+text-align: justify;
+}
+
+#formulario form{
+margin: 0px;
+}
+#formulario form input{
+border-radius: 5px;
+border: px solid blue;
+padding: 10px 0 10px 0;
+margin: 10px;
+width: 650px;
+}
+#formulario form textarea{
+border: px solid blue;
+padding: 10px;
+margin: 10px;
+width: 630px;
+height: 200px;
+}
+#formulario form button{
+font-size: 20px;
+padding: 10px;
+margin: 10px;
+width: 200px;
+float: center;
+
+}
+
+#quemsomos{
+border: px solid #ccc;
+padding: 10px;
+float: right;
+font-size: 15px;
+text-align: justify;
+
+}
+
+#footer{
+font-style:italic;
+border-radius:5px;
+font-family: Zapf-Chancery;
+text-decoration: none;
+text-align: center;
+color: #8B2323;
+border: 1px solid #ccc;
+margin: 15px;
+width: auto;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+float:center;
+background:#efe8d5;
+clear: both;
+
+}
